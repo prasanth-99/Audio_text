@@ -6,7 +6,7 @@ Following are the requirements of tools and the installation steps for to config
 **Tool Requirements:**
 ___
 
-1. **Install Python-version-3.10**
+1. [**Install Python-version-3.10**](https://www.python.org/downloads/)
 
 2. [**Install Pytorch**](https://pytorch.org/get-started/locally/)
 
