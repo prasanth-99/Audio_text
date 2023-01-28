@@ -6,30 +6,35 @@ Following are the requirements of tools and the installation steps for to config
 **Tool Requirements:**
 ___
 
-**Python-version-3.10**
+1. **Install Python-version-3.10**
 
-[**Pytorch**]([URL](https://pytorch.org/get-started/locally/))
+2. [**Install Pytorch**]([URL](https://pytorch.org/get-started/locally/))
 
 ![image](https://user-images.githubusercontent.com/46361620/215275070-0619b767-7ff9-4e54-8af9-f8faff539f81.png)
 
-[**CUDA-11.6**]([**URL](https://pytorch.org/get-started/locally/))
+3. [**Install CUDA-11.6**]([**URL](https://pytorch.org/get-started/locally/))
 
 ![image](https://user-images.githubusercontent.com/46361620/215275136-fbd66a14-be4c-498a-8425-3aa3092d9dea.png)
 
+4. **install ffmpeg**
 ```
-!pip install ffmpeg
+pip uninstall ffmpeg
+pip uninstall ffmpeg-python
+
+pip install ffmpeg-python
+
 ```
 
-**Whisper Installation**
+5. **Whisper Installation**
 ```
-!pip install -U openai-whisper
+pip install -U openai-whisper
 ```
 
-**Upgrade the package:**
+6. **Upgrade the package:**
 ___
 
 ```
-!pip install --upgrade --no-deps --force-reinstall git+https://github.com/openai/whisper.git
+pip install --upgrade --no-deps --force-reinstall git+https://github.com/openai/whisper.git
 
 pip install setuptools-rust
 ```
